@@ -8,6 +8,7 @@ module.exports = {
       },
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],
+        dancing: ["Dancing Script", "sans-serif"],
       },
       colors: {
         primary: "#00040f",

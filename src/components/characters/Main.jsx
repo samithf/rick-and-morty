@@ -29,13 +29,13 @@ const Main = () => {
 
   function renderContent() {
     if (isLoading | isRefetching) {
-      return <div className="p-4">Loading....</div>;
+      return <div className="p-4 font-dancing">Loading....</div>;
     }
     if (isError) {
-      return <div className="p-4">Something went wrong!</div>;
+      return <div className="p-4 font-dancing">Something went wrong!</div>;
     }
     if (!isLoading && data && data.error) {
-      return <div className="p-4">No data</div>;
+      return <div className="p-4 font-dancing">No data</div>;
     }
     if (!isLoading && data && data.results) {
       return (

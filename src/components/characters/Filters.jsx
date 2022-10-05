@@ -58,7 +58,7 @@ const Filters = ({ setState, refetch }) => {
           onChange={onChangeName}
         />
         <button
-          className=" bg-cyan-600 p-2 text-gray-200 rounded-r-md"
+          className=" bg-cyan-600 p-2 text-gray-200 rounded-r-md font-dancing"
           onClick={onClickSearch}
         >
           Search

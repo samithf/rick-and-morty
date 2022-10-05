@@ -11,6 +11,7 @@ function App() {
         <ReactQueryDevtools initialIsOpen={false} />
         <h1 className="text-3xl text-gray-600 font-semibold px-8 py-4 text-center">
           Rick and Morty
+          <span className="font-dancing ml-4 text-xl">By Samith</span>
         </h1>
         {/* <Characters /> */}
         <Main />
